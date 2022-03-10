@@ -10,6 +10,20 @@
 		E2016FE727D9E13200C0A9F1 /* CashManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2016FE627D9E13200C0A9F1 /* CashManager.swift */; };
 		E2016FE927D9E2BA00C0A9F1 /* SecurityCodeChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2016FE827D9E2BA00C0A9F1 /* SecurityCodeChecker.swift */; };
 		E2016FEB27D9E36C00C0A9F1 /* AccountChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2016FEA27D9E36C00C0A9F1 /* AccountChecker.swift */; };
+		E2016FEE27D9E6A000C0A9F1 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2016FED27D9E6A000C0A9F1 /* Ticket.swift */; };
+		E2016FF027D9E6D900C0A9F1 /* QuarterDiscountStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2016FEF27D9E6D900C0A9F1 /* QuarterDiscountStrategy.swift */; };
+		E2016FF227D9E71700C0A9F1 /* NoDiscountStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2016FF127D9E71700C0A9F1 /* NoDiscountStrategy.swift */; };
+		E2016FF427D9E73E00C0A9F1 /* HalfDiscountStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2016FF327D9E73E00C0A9F1 /* HalfDiscountStrategy.swift */; };
+		E2016FF627D9E75D00C0A9F1 /* IpromoteStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2016FF527D9E75D00C0A9F1 /* IpromoteStrategy.swift */; };
+		E2016FF827D9E7A300C0A9F1 /* EightyDiscountStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2016FF727D9E7A300C0A9F1 /* EightyDiscountStrategy.swift */; };
+		E2016FFB27D9ECFA00C0A9F1 /* BuilderPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2016FFA27D9ECFA00C0A9F1 /* BuilderPattern.swift */; };
+		E2016FFD27D9EDCE00C0A9F1 /* ICarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2016FFC27D9EDCE00C0A9F1 /* ICarBuilder.swift */; };
+		E201700027D9EE9E00C0A9F1 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2016FFF27D9EE9E00C0A9F1 /* Engine.swift */; };
+		E201700227D9EF2000C0A9F1 /* SeatBelt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201700127D9EF2000C0A9F1 /* SeatBelt.swift */; };
+		E201700427D9EFA600C0A9F1 /* Windscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201700327D9EFA600C0A9F1 /* Windscreen.swift */; };
+		E201700627D9F0CE00C0A9F1 /* CarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201700527D9F0CE00C0A9F1 /* CarBuilder.swift */; };
+		E201700827D9F20400C0A9F1 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201700727D9F20400C0A9F1 /* Car.swift */; };
+		E201700B27D9FB0200C0A9F1 /* ThanhSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201700A27D9FB0200C0A9F1 /* ThanhSingleton.swift */; };
 		E24C6AED27D9DC30005432D9 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6ADF27D9DC30005432D9 /* Bubble.swift */; };
 		E24C6AEE27D9DC30005432D9 /* FruitPudding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6AE027D9DC30005432D9 /* FruitPudding.swift */; };
 		E24C6AEF27D9DC30005432D9 /* WhiteBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6AE127D9DC30005432D9 /* WhiteBubble.swift */; };
@@ -34,7 +48,7 @@
 		E26092BF27D9D907002074CA /* RandomAnimalFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26092B127D9D907002074CA /* RandomAnimalFactory.swift */; };
 		E26092C027D9D907002074CA /* IAnimalFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26092B227D9D907002074CA /* IAnimalFactory.swift */; };
 		E26092C127D9D907002074CA /* BasicAnimalFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26092B327D9D907002074CA /* BasicAnimalFactory.swift */; };
-		E26092C227D9D907002074CA /* factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26092B427D9D907002074CA /* factory.swift */; };
+		E26092C227D9D907002074CA /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26092B427D9D907002074CA /* FactoryMethod.swift */; };
 		E288E0CC27D9D49B00F42E23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E0CB27D9D49B00F42E23 /* AppDelegate.swift */; };
 		E288E0CE27D9D49B00F42E23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E0CD27D9D49B00F42E23 /* SceneDelegate.swift */; };
 		E288E0D027D9D49B00F42E23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E0CF27D9D49B00F42E23 /* ViewController.swift */; };
@@ -43,13 +57,27 @@
 		E288E0D827D9D49D00F42E23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E288E0D627D9D49D00F42E23 /* LaunchScreen.storyboard */; };
 		E288E0E527D9D4B300F42E23 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E0E227D9D4B300F42E23 /* Subject.swift */; };
 		E288E0E627D9D4B300F42E23 /* IObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E0E327D9D4B300F42E23 /* IObserver.swift */; };
-		E288E0E727D9D4B300F42E23 /* strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E0E427D9D4B300F42E23 /* strategy.swift */; };
+		E288E0E727D9D4B300F42E23 /* StrategyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E0E427D9D4B300F42E23 /* StrategyPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E2016FE627D9E13200C0A9F1 /* CashManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashManager.swift; sourceTree = "<group>"; };
 		E2016FE827D9E2BA00C0A9F1 /* SecurityCodeChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityCodeChecker.swift; sourceTree = "<group>"; };
 		E2016FEA27D9E36C00C0A9F1 /* AccountChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountChecker.swift; sourceTree = "<group>"; };
+		E2016FED27D9E6A000C0A9F1 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		E2016FEF27D9E6D900C0A9F1 /* QuarterDiscountStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterDiscountStrategy.swift; sourceTree = "<group>"; };
+		E2016FF127D9E71700C0A9F1 /* NoDiscountStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDiscountStrategy.swift; sourceTree = "<group>"; };
+		E2016FF327D9E73E00C0A9F1 /* HalfDiscountStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfDiscountStrategy.swift; sourceTree = "<group>"; };
+		E2016FF527D9E75D00C0A9F1 /* IpromoteStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpromoteStrategy.swift; sourceTree = "<group>"; };
+		E2016FF727D9E7A300C0A9F1 /* EightyDiscountStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightyDiscountStrategy.swift; sourceTree = "<group>"; };
+		E2016FFA27D9ECFA00C0A9F1 /* BuilderPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPattern.swift; sourceTree = "<group>"; };
+		E2016FFC27D9EDCE00C0A9F1 /* ICarBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICarBuilder.swift; sourceTree = "<group>"; };
+		E2016FFF27D9EE9E00C0A9F1 /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		E201700127D9EF2000C0A9F1 /* SeatBelt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatBelt.swift; sourceTree = "<group>"; };
+		E201700327D9EFA600C0A9F1 /* Windscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Windscreen.swift; sourceTree = "<group>"; };
+		E201700527D9F0CE00C0A9F1 /* CarBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBuilder.swift; sourceTree = "<group>"; };
+		E201700727D9F20400C0A9F1 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		E201700A27D9FB0200C0A9F1 /* ThanhSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanhSingleton.swift; sourceTree = "<group>"; };
 		E24C6ADF27D9DC30005432D9 /* Bubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
 		E24C6AE027D9DC30005432D9 /* FruitPudding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitPudding.swift; sourceTree = "<group>"; };
 		E24C6AE127D9DC30005432D9 /* WhiteBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteBubble.swift; sourceTree = "<group>"; };
@@ -74,7 +102,7 @@
 		E26092B127D9D907002074CA /* RandomAnimalFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomAnimalFactory.swift; sourceTree = "<group>"; };
 		E26092B227D9D907002074CA /* IAnimalFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAnimalFactory.swift; sourceTree = "<group>"; };
 		E26092B327D9D907002074CA /* BasicAnimalFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicAnimalFactory.swift; sourceTree = "<group>"; };
-		E26092B427D9D907002074CA /* factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = factory.swift; sourceTree = "<group>"; };
+		E26092B427D9D907002074CA /* FactoryMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
 		E288E0C827D9D49B00F42E23 /* DesignPatternDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatternDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E288E0CB27D9D49B00F42E23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E288E0CD27D9D49B00F42E23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,7 +113,7 @@
 		E288E0D927D9D49D00F42E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E288E0E227D9D4B300F42E23 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		E288E0E327D9D4B300F42E23 /* IObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IObserver.swift; sourceTree = "<group>"; };
-		E288E0E427D9D4B300F42E23 /* strategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = strategy.swift; sourceTree = "<group>"; };
+		E288E0E427D9D4B300F42E23 /* StrategyPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +127,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2016FEC27D9E68300C0A9F1 /* StrategyPattern */ = {
+			isa = PBXGroup;
+			children = (
+				E288E0E427D9D4B300F42E23 /* StrategyPattern.swift */,
+				E2016FED27D9E6A000C0A9F1 /* Ticket.swift */,
+				E2016FEF27D9E6D900C0A9F1 /* QuarterDiscountStrategy.swift */,
+				E2016FF127D9E71700C0A9F1 /* NoDiscountStrategy.swift */,
+				E2016FF327D9E73E00C0A9F1 /* HalfDiscountStrategy.swift */,
+				E2016FF527D9E75D00C0A9F1 /* IpromoteStrategy.swift */,
+				E2016FF727D9E7A300C0A9F1 /* EightyDiscountStrategy.swift */,
+			);
+			path = StrategyPattern;
+			sourceTree = "<group>";
+		};
+		E2016FF927D9EC9600C0A9F1 /* BuilderPattern */ = {
+			isa = PBXGroup;
+			children = (
+				E2016FFE27D9EE8900C0A9F1 /* CarParts */,
+				E2016FFA27D9ECFA00C0A9F1 /* BuilderPattern.swift */,
+				E2016FFC27D9EDCE00C0A9F1 /* ICarBuilder.swift */,
+				E201700527D9F0CE00C0A9F1 /* CarBuilder.swift */,
+				E201700727D9F20400C0A9F1 /* Car.swift */,
+			);
+			path = BuilderPattern;
+			sourceTree = "<group>";
+		};
+		E2016FFE27D9EE8900C0A9F1 /* CarParts */ = {
+			isa = PBXGroup;
+			children = (
+				E2016FFF27D9EE9E00C0A9F1 /* Engine.swift */,
+				E201700127D9EF2000C0A9F1 /* SeatBelt.swift */,
+				E201700327D9EFA600C0A9F1 /* Windscreen.swift */,
+			);
+			path = CarParts;
+			sourceTree = "<group>";
+		};
+		E201700927D9FADE00C0A9F1 /* SingletonPattern */ = {
+			isa = PBXGroup;
+			children = (
+				E201700A27D9FB0200C0A9F1 /* ThanhSingleton.swift */,
+			);
+			path = SingletonPattern;
+			sourceTree = "<group>";
+		};
 		E24C6ADD27D9DC30005432D9 /* StructuralPatterns */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,8 +227,9 @@
 		E26092A227D9D907002074CA /* CreationalPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				E201700927D9FADE00C0A9F1 /* SingletonPattern */,
+				E2016FF927D9EC9600C0A9F1 /* BuilderPattern */,
 				E26092A327D9D907002074CA /* FactoryMethod */,
-				E26092B427D9D907002074CA /* factory.swift */,
 			);
 			path = CreationalPatterns;
 			sourceTree = "<group>";
@@ -164,6 +237,7 @@
 		E26092A327D9D907002074CA /* FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
+				E26092B427D9D907002074CA /* FactoryMethod.swift */,
 				E26092A427D9D907002074CA /* AbstractFactory */,
 				E26092A827D9D907002074CA /* Animal */,
 				E26092B027D9D907002074CA /* Factory */,
@@ -241,8 +315,8 @@
 		E288E0DF27D9D4B300F42E23 /* BehavioralPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				E2016FEC27D9E68300C0A9F1 /* StrategyPattern */,
 				E288E0E027D9D4B300F42E23 /* Observer */,
-				E288E0E427D9D4B300F42E23 /* strategy.swift */,
 			);
 			path = BehavioralPatterns;
 			sourceTree = "<group>";
@@ -340,23 +414,32 @@
 				E26092C027D9D907002074CA /* IAnimalFactory.swift in Sources */,
 				E24C6AF027D9DC30005432D9 /* BlackSugar.swift in Sources */,
 				E24C6AF127D9DC30005432D9 /* EggPudding.swift in Sources */,
+				E2016FFB27D9ECFA00C0A9F1 /* BuilderPattern.swift in Sources */,
 				E288E0E527D9D4B300F42E23 /* Subject.swift in Sources */,
 				E2016FE727D9E13200C0A9F1 /* CashManager.swift in Sources */,
+				E2016FF227D9E71700C0A9F1 /* NoDiscountStrategy.swift in Sources */,
+				E201700427D9EFA600C0A9F1 /* Windscreen.swift in Sources */,
+				E2016FF427D9E73E00C0A9F1 /* HalfDiscountStrategy.swift in Sources */,
 				E26092B927D9D907002074CA /* Chicken.swift in Sources */,
 				E24C6AF427D9DC30005432D9 /* MilkTea.swift in Sources */,
 				E24C6AEE27D9DC30005432D9 /* FruitPudding.swift in Sources */,
 				E24C6AF727D9DC30005432D9 /* AdapterPattern.swift in Sources */,
 				E24C6AED27D9DC30005432D9 /* Bubble.swift in Sources */,
+				E2016FF627D9E75D00C0A9F1 /* IpromoteStrategy.swift in Sources */,
+				E2016FEE27D9E6A000C0A9F1 /* Ticket.swift in Sources */,
 				E288E0D027D9D49B00F42E23 /* ViewController.swift in Sources */,
 				E26092B827D9D907002074CA /* Dog.swift in Sources */,
 				E288E0CC27D9D49B00F42E23 /* AppDelegate.swift in Sources */,
+				E201700B27D9FB0200C0A9F1 /* ThanhSingleton.swift in Sources */,
 				E26092BA27D9D907002074CA /* IAnimal.swift in Sources */,
+				E201700227D9EF2000C0A9F1 /* SeatBelt.swift in Sources */,
 				E288E0CE27D9D49B00F42E23 /* SceneDelegate.swift in Sources */,
 				E26092B727D9D907002074CA /* AbstractAnimalFactory.swift in Sources */,
-				E288E0E727D9D4B300F42E23 /* strategy.swift in Sources */,
+				E288E0E727D9D4B300F42E23 /* StrategyPattern.swift in Sources */,
 				E288E0E627D9D4B300F42E23 /* IObserver.swift in Sources */,
+				E201700027D9EE9E00C0A9F1 /* Engine.swift in Sources */,
 				E24C6AF627D9DC30005432D9 /* FacadePattern.swift in Sources */,
-				E26092C227D9D907002074CA /* factory.swift in Sources */,
+				E26092C227D9D907002074CA /* FactoryMethod.swift in Sources */,
 				E26092BF27D9D907002074CA /* RandomAnimalFactory.swift in Sources */,
 				E26092BE27D9D907002074CA /* TwoLegsAnimal.swift in Sources */,
 				E24C6AF227D9DC30005432D9 /* MilkTeaDecorator.swift in Sources */,
@@ -367,7 +450,12 @@
 				E2016FE927D9E2BA00C0A9F1 /* SecurityCodeChecker.swift in Sources */,
 				E26092BB27D9D907002074CA /* Duck.swift in Sources */,
 				E26092BC27D9D907002074CA /* Cat.swift in Sources */,
+				E2016FFD27D9EDCE00C0A9F1 /* ICarBuilder.swift in Sources */,
+				E2016FF027D9E6D900C0A9F1 /* QuarterDiscountStrategy.swift in Sources */,
+				E201700827D9F20400C0A9F1 /* Car.swift in Sources */,
+				E2016FF827D9E7A300C0A9F1 /* EightyDiscountStrategy.swift in Sources */,
 				E26092B527D9D907002074CA /* FourLegsAnimalFactory.swift in Sources */,
+				E201700627D9F0CE00C0A9F1 /* CarBuilder.swift in Sources */,
 				E24C6AF527D9DC30005432D9 /* BankAccountFacade.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
