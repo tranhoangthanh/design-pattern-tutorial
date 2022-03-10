@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E26092A127D9D8DE002074CA /* AdapterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26092A027D9D8DE002074CA /* AdapterPattern.swift */; };
+		E2016FE727D9E13200C0A9F1 /* CashManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2016FE627D9E13200C0A9F1 /* CashManager.swift */; };
+		E2016FE927D9E2BA00C0A9F1 /* SecurityCodeChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2016FE827D9E2BA00C0A9F1 /* SecurityCodeChecker.swift */; };
+		E2016FEB27D9E36C00C0A9F1 /* AccountChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2016FEA27D9E36C00C0A9F1 /* AccountChecker.swift */; };
+		E24C6AED27D9DC30005432D9 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6ADF27D9DC30005432D9 /* Bubble.swift */; };
+		E24C6AEE27D9DC30005432D9 /* FruitPudding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6AE027D9DC30005432D9 /* FruitPudding.swift */; };
+		E24C6AEF27D9DC30005432D9 /* WhiteBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6AE127D9DC30005432D9 /* WhiteBubble.swift */; };
+		E24C6AF027D9DC30005432D9 /* BlackSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6AE227D9DC30005432D9 /* BlackSugar.swift */; };
+		E24C6AF127D9DC30005432D9 /* EggPudding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6AE327D9DC30005432D9 /* EggPudding.swift */; };
+		E24C6AF227D9DC30005432D9 /* MilkTeaDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6AE527D9DC30005432D9 /* MilkTeaDecorator.swift */; };
+		E24C6AF327D9DC30005432D9 /* IMilkTea.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6AE627D9DC30005432D9 /* IMilkTea.swift */; };
+		E24C6AF427D9DC30005432D9 /* MilkTea.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6AE727D9DC30005432D9 /* MilkTea.swift */; };
+		E24C6AF527D9DC30005432D9 /* BankAccountFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6AE927D9DC30005432D9 /* BankAccountFacade.swift */; };
+		E24C6AF627D9DC30005432D9 /* FacadePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6AEA27D9DC30005432D9 /* FacadePattern.swift */; };
+		E24C6AF727D9DC30005432D9 /* AdapterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6AEC27D9DC30005432D9 /* AdapterPattern.swift */; };
 		E26092B527D9D907002074CA /* FourLegsAnimalFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26092A527D9D907002074CA /* FourLegsAnimalFactory.swift */; };
 		E26092B627D9D907002074CA /* TwoLegsAnimalFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26092A627D9D907002074CA /* TwoLegsAnimalFactory.swift */; };
 		E26092B727D9D907002074CA /* AbstractAnimalFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26092A727D9D907002074CA /* AbstractAnimalFactory.swift */; };
@@ -31,20 +44,23 @@
 		E288E0E527D9D4B300F42E23 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E0E227D9D4B300F42E23 /* Subject.swift */; };
 		E288E0E627D9D4B300F42E23 /* IObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E0E327D9D4B300F42E23 /* IObserver.swift */; };
 		E288E0E727D9D4B300F42E23 /* strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E0E427D9D4B300F42E23 /* strategy.swift */; };
-		E288E11127D9D4CC00F42E23 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E10427D9D4CC00F42E23 /* Bubble.swift */; };
-		E288E11227D9D4CC00F42E23 /* FruitPudding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E10527D9D4CC00F42E23 /* FruitPudding.swift */; };
-		E288E11327D9D4CC00F42E23 /* WhiteBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E10627D9D4CC00F42E23 /* WhiteBubble.swift */; };
-		E288E11427D9D4CC00F42E23 /* BlackSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E10727D9D4CC00F42E23 /* BlackSugar.swift */; };
-		E288E11527D9D4CC00F42E23 /* EggPudding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E10827D9D4CC00F42E23 /* EggPudding.swift */; };
-		E288E11627D9D4CC00F42E23 /* MilkTeaDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E10A27D9D4CC00F42E23 /* MilkTeaDecorator.swift */; };
-		E288E11727D9D4CC00F42E23 /* IMilkTea.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E10B27D9D4CC00F42E23 /* IMilkTea.swift */; };
-		E288E11827D9D4CC00F42E23 /* MilkTea.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E10C27D9D4CC00F42E23 /* MilkTea.swift */; };
-		E288E11927D9D4CC00F42E23 /* BankAccountFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E10E27D9D4CC00F42E23 /* BankAccountFacade.swift */; };
-		E288E11A27D9D4CC00F42E23 /* FacadePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E10F27D9D4CC00F42E23 /* FacadePattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E26092A027D9D8DE002074CA /* AdapterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterPattern.swift; sourceTree = "<group>"; };
+		E2016FE627D9E13200C0A9F1 /* CashManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashManager.swift; sourceTree = "<group>"; };
+		E2016FE827D9E2BA00C0A9F1 /* SecurityCodeChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityCodeChecker.swift; sourceTree = "<group>"; };
+		E2016FEA27D9E36C00C0A9F1 /* AccountChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountChecker.swift; sourceTree = "<group>"; };
+		E24C6ADF27D9DC30005432D9 /* Bubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
+		E24C6AE027D9DC30005432D9 /* FruitPudding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitPudding.swift; sourceTree = "<group>"; };
+		E24C6AE127D9DC30005432D9 /* WhiteBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteBubble.swift; sourceTree = "<group>"; };
+		E24C6AE227D9DC30005432D9 /* BlackSugar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackSugar.swift; sourceTree = "<group>"; };
+		E24C6AE327D9DC30005432D9 /* EggPudding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggPudding.swift; sourceTree = "<group>"; };
+		E24C6AE527D9DC30005432D9 /* MilkTeaDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MilkTeaDecorator.swift; sourceTree = "<group>"; };
+		E24C6AE627D9DC30005432D9 /* IMilkTea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMilkTea.swift; sourceTree = "<group>"; };
+		E24C6AE727D9DC30005432D9 /* MilkTea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MilkTea.swift; sourceTree = "<group>"; };
+		E24C6AE927D9DC30005432D9 /* BankAccountFacade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountFacade.swift; sourceTree = "<group>"; };
+		E24C6AEA27D9DC30005432D9 /* FacadePattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacadePattern.swift; sourceTree = "<group>"; };
+		E24C6AEC27D9DC30005432D9 /* AdapterPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdapterPattern.swift; sourceTree = "<group>"; };
 		E26092A527D9D907002074CA /* FourLegsAnimalFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourLegsAnimalFactory.swift; sourceTree = "<group>"; };
 		E26092A627D9D907002074CA /* TwoLegsAnimalFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoLegsAnimalFactory.swift; sourceTree = "<group>"; };
 		E26092A727D9D907002074CA /* AbstractAnimalFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractAnimalFactory.swift; sourceTree = "<group>"; };
@@ -70,16 +86,6 @@
 		E288E0E227D9D4B300F42E23 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		E288E0E327D9D4B300F42E23 /* IObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IObserver.swift; sourceTree = "<group>"; };
 		E288E0E427D9D4B300F42E23 /* strategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = strategy.swift; sourceTree = "<group>"; };
-		E288E10427D9D4CC00F42E23 /* Bubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
-		E288E10527D9D4CC00F42E23 /* FruitPudding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitPudding.swift; sourceTree = "<group>"; };
-		E288E10627D9D4CC00F42E23 /* WhiteBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteBubble.swift; sourceTree = "<group>"; };
-		E288E10727D9D4CC00F42E23 /* BlackSugar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackSugar.swift; sourceTree = "<group>"; };
-		E288E10827D9D4CC00F42E23 /* EggPudding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggPudding.swift; sourceTree = "<group>"; };
-		E288E10A27D9D4CC00F42E23 /* MilkTeaDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MilkTeaDecorator.swift; sourceTree = "<group>"; };
-		E288E10B27D9D4CC00F42E23 /* IMilkTea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMilkTea.swift; sourceTree = "<group>"; };
-		E288E10C27D9D4CC00F42E23 /* MilkTea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MilkTea.swift; sourceTree = "<group>"; };
-		E288E10E27D9D4CC00F42E23 /* BankAccountFacade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountFacade.swift; sourceTree = "<group>"; };
-		E288E10F27D9D4CC00F42E23 /* FacadePattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacadePattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +99,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E260929F27D9D8BD002074CA /* AdapterPattern */ = {
+		E24C6ADD27D9DC30005432D9 /* StructuralPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				E26092A027D9D8DE002074CA /* AdapterPattern.swift */,
+				E24C6ADE27D9DC30005432D9 /* DecoratorPattern */,
+				E24C6AE827D9DC30005432D9 /* FacadePattern */,
+				E24C6AEB27D9DC30005432D9 /* AdapterPattern */,
+			);
+			path = StructuralPatterns;
+			sourceTree = "<group>";
+		};
+		E24C6ADE27D9DC30005432D9 /* DecoratorPattern */ = {
+			isa = PBXGroup;
+			children = (
+				E24C6ADF27D9DC30005432D9 /* Bubble.swift */,
+				E24C6AE027D9DC30005432D9 /* FruitPudding.swift */,
+				E24C6AE127D9DC30005432D9 /* WhiteBubble.swift */,
+				E24C6AE227D9DC30005432D9 /* BlackSugar.swift */,
+				E24C6AE327D9DC30005432D9 /* EggPudding.swift */,
+				E24C6AE427D9DC30005432D9 /* base */,
+			);
+			path = DecoratorPattern;
+			sourceTree = "<group>";
+		};
+		E24C6AE427D9DC30005432D9 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				E24C6AE527D9DC30005432D9 /* MilkTeaDecorator.swift */,
+				E24C6AE627D9DC30005432D9 /* IMilkTea.swift */,
+				E24C6AE727D9DC30005432D9 /* MilkTea.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		E24C6AE827D9DC30005432D9 /* FacadePattern */ = {
+			isa = PBXGroup;
+			children = (
+				E24C6AE927D9DC30005432D9 /* BankAccountFacade.swift */,
+				E24C6AEA27D9DC30005432D9 /* FacadePattern.swift */,
+				E2016FE627D9E13200C0A9F1 /* CashManager.swift */,
+				E2016FE827D9E2BA00C0A9F1 /* SecurityCodeChecker.swift */,
+				E2016FEA27D9E36C00C0A9F1 /* AccountChecker.swift */,
+			);
+			path = FacadePattern;
+			sourceTree = "<group>";
+		};
+		E24C6AEB27D9DC30005432D9 /* AdapterPattern */ = {
+			isa = PBXGroup;
+			children = (
+				E24C6AEC27D9DC30005432D9 /* AdapterPattern.swift */,
 			);
 			path = AdapterPattern;
 			sourceTree = "<group>";
@@ -173,8 +224,8 @@
 		E288E0CA27D9D49B00F42E23 /* DesignPatternDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E24C6ADD27D9DC30005432D9 /* StructuralPatterns */,
 				E26092A227D9D907002074CA /* CreationalPatterns */,
-				E288E10227D9D4CC00F42E23 /* StructuralPatterns */,
 				E288E0DF27D9D4B300F42E23 /* BehavioralPatterns */,
 				E288E0CB27D9D49B00F42E23 /* AppDelegate.swift */,
 				E288E0CD27D9D49B00F42E23 /* SceneDelegate.swift */,
@@ -211,49 +262,6 @@
 				E288E0E327D9D4B300F42E23 /* IObserver.swift */,
 			);
 			path = base;
-			sourceTree = "<group>";
-		};
-		E288E10227D9D4CC00F42E23 /* StructuralPatterns */ = {
-			isa = PBXGroup;
-			children = (
-				E260929F27D9D8BD002074CA /* AdapterPattern */,
-				E288E10327D9D4CC00F42E23 /* DecoratorPattern */,
-				E288E10D27D9D4CC00F42E23 /* FacadePattern */,
-			);
-			name = StructuralPatterns;
-			path = ../../demo/design_pattern/design_pattern/StructuralPatterns;
-			sourceTree = "<group>";
-		};
-		E288E10327D9D4CC00F42E23 /* DecoratorPattern */ = {
-			isa = PBXGroup;
-			children = (
-				E288E10427D9D4CC00F42E23 /* Bubble.swift */,
-				E288E10527D9D4CC00F42E23 /* FruitPudding.swift */,
-				E288E10627D9D4CC00F42E23 /* WhiteBubble.swift */,
-				E288E10727D9D4CC00F42E23 /* BlackSugar.swift */,
-				E288E10827D9D4CC00F42E23 /* EggPudding.swift */,
-				E288E10927D9D4CC00F42E23 /* base */,
-			);
-			path = DecoratorPattern;
-			sourceTree = "<group>";
-		};
-		E288E10927D9D4CC00F42E23 /* base */ = {
-			isa = PBXGroup;
-			children = (
-				E288E10A27D9D4CC00F42E23 /* MilkTeaDecorator.swift */,
-				E288E10B27D9D4CC00F42E23 /* IMilkTea.swift */,
-				E288E10C27D9D4CC00F42E23 /* MilkTea.swift */,
-			);
-			path = base;
-			sourceTree = "<group>";
-		};
-		E288E10D27D9D4CC00F42E23 /* FacadePattern */ = {
-			isa = PBXGroup;
-			children = (
-				E288E10E27D9D4CC00F42E23 /* BankAccountFacade.swift */,
-				E288E10F27D9D4CC00F42E23 /* FacadePattern.swift */,
-			);
-			path = FacadePattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,37 +335,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24C6AF327D9DC30005432D9 /* IMilkTea.swift in Sources */,
 				E26092B627D9D907002074CA /* TwoLegsAnimalFactory.swift in Sources */,
 				E26092C027D9D907002074CA /* IAnimalFactory.swift in Sources */,
-				E288E11127D9D4CC00F42E23 /* Bubble.swift in Sources */,
+				E24C6AF027D9DC30005432D9 /* BlackSugar.swift in Sources */,
+				E24C6AF127D9DC30005432D9 /* EggPudding.swift in Sources */,
 				E288E0E527D9D4B300F42E23 /* Subject.swift in Sources */,
+				E2016FE727D9E13200C0A9F1 /* CashManager.swift in Sources */,
 				E26092B927D9D907002074CA /* Chicken.swift in Sources */,
+				E24C6AF427D9DC30005432D9 /* MilkTea.swift in Sources */,
+				E24C6AEE27D9DC30005432D9 /* FruitPudding.swift in Sources */,
+				E24C6AF727D9DC30005432D9 /* AdapterPattern.swift in Sources */,
+				E24C6AED27D9DC30005432D9 /* Bubble.swift in Sources */,
 				E288E0D027D9D49B00F42E23 /* ViewController.swift in Sources */,
-				E288E11327D9D4CC00F42E23 /* WhiteBubble.swift in Sources */,
-				E288E11A27D9D4CC00F42E23 /* FacadePattern.swift in Sources */,
-				E288E11627D9D4CC00F42E23 /* MilkTeaDecorator.swift in Sources */,
-				E288E11927D9D4CC00F42E23 /* BankAccountFacade.swift in Sources */,
 				E26092B827D9D907002074CA /* Dog.swift in Sources */,
-				E26092A127D9D8DE002074CA /* AdapterPattern.swift in Sources */,
 				E288E0CC27D9D49B00F42E23 /* AppDelegate.swift in Sources */,
 				E26092BA27D9D907002074CA /* IAnimal.swift in Sources */,
 				E288E0CE27D9D49B00F42E23 /* SceneDelegate.swift in Sources */,
-				E288E11727D9D4CC00F42E23 /* IMilkTea.swift in Sources */,
 				E26092B727D9D907002074CA /* AbstractAnimalFactory.swift in Sources */,
-				E288E11427D9D4CC00F42E23 /* BlackSugar.swift in Sources */,
 				E288E0E727D9D4B300F42E23 /* strategy.swift in Sources */,
 				E288E0E627D9D4B300F42E23 /* IObserver.swift in Sources */,
+				E24C6AF627D9DC30005432D9 /* FacadePattern.swift in Sources */,
 				E26092C227D9D907002074CA /* factory.swift in Sources */,
 				E26092BF27D9D907002074CA /* RandomAnimalFactory.swift in Sources */,
-				E288E11227D9D4CC00F42E23 /* FruitPudding.swift in Sources */,
 				E26092BE27D9D907002074CA /* TwoLegsAnimal.swift in Sources */,
+				E24C6AF227D9DC30005432D9 /* MilkTeaDecorator.swift in Sources */,
+				E2016FEB27D9E36C00C0A9F1 /* AccountChecker.swift in Sources */,
 				E26092C127D9D907002074CA /* BasicAnimalFactory.swift in Sources */,
+				E24C6AEF27D9DC30005432D9 /* WhiteBubble.swift in Sources */,
 				E26092BD27D9D907002074CA /* FourLegsAnimal.swift in Sources */,
+				E2016FE927D9E2BA00C0A9F1 /* SecurityCodeChecker.swift in Sources */,
 				E26092BB27D9D907002074CA /* Duck.swift in Sources */,
-				E288E11827D9D4CC00F42E23 /* MilkTea.swift in Sources */,
 				E26092BC27D9D907002074CA /* Cat.swift in Sources */,
-				E288E11527D9D4CC00F42E23 /* EggPudding.swift in Sources */,
 				E26092B527D9D907002074CA /* FourLegsAnimalFactory.swift in Sources */,
+				E24C6AF527D9DC30005432D9 /* BankAccountFacade.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
