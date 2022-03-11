@@ -7,25 +7,42 @@
 
 import Foundation
 
-extension Array where Element: Equatable{
-    mutating func remove(element: Element) {
-        if let i = self.firstIndex(of: element) {
-            self.remove(at: i)
+class Subject<T> : Observable  {
+    
+    private var _value : T! = nil
+    private var _observers : [IObserver] = []
+    
+    var value : T {
+        get {
+            return self._value
+        }
+        set {
+            self._value = newValue
+            self.notifyAllObservers(with: newValue)
         }
     }
-}
-
-class Subject {
-    private var observers : [IObserver] = []
     
-    func attachObserver(observer : IObserver) {
+    var observers : [IObserver] {
+        get {
+            return self._observers
+        }
+        set {
+            self._observers = newValue
+        }
+    }
+    
+    func addObserver(observer: IObserver) {
         observers.append(observer)
     }
     
-    func detachObserver(observer : IObserver) {
-      //  observers.remove(element: observer)
+    func removeObserver(observer: IObserver) {
+        observers = observers.filter({$0.uuid != observer.uuid})
     }
     
-    //func notifyObserver(subject : Subject , arg : Ob)
+    func notifyAllObservers<T>(with newValue: T) {
+        for observer in observers {
+            observer.notify(with: newValue)
+        }
+    }
 }
 

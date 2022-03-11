@@ -19,19 +19,19 @@ class ViewController: UIViewController {
         
         
         
-        for _ in 1...50 {
-            concurrentQueue.sync {
-                testSingleton()
-            }
-        }
+//        for _ in 1...50 {
+//            concurrentQueue.sync {
+//                testSingleton()
+//            }
+//        }
         
         
         
-        
+       // testCommand()
         //testFacade()
         //testStrategy()
         //testBuilder()
-       
+        testObserverPattern()
         
     }
     

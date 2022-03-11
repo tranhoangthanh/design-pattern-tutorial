@@ -24,6 +24,12 @@
 		E201700627D9F0CE00C0A9F1 /* CarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201700527D9F0CE00C0A9F1 /* CarBuilder.swift */; };
 		E201700827D9F20400C0A9F1 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201700727D9F20400C0A9F1 /* Car.swift */; };
 		E201700B27D9FB0200C0A9F1 /* ThanhSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201700A27D9FB0200C0A9F1 /* ThanhSingleton.swift */; };
+		E201700E27DA063800C0A9F1 /* ICommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201700D27DA063800C0A9F1 /* ICommand.swift */; };
+		E201701027DA067900C0A9F1 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201700F27DA067900C0A9F1 /* Remote.swift */; };
+		E201701227DA06E500C0A9F1 /* TurnOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201701127DA06E500C0A9F1 /* TurnOffCommand.swift */; };
+		E201701427DA072B00C0A9F1 /* Fan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201701327DA072B00C0A9F1 /* Fan.swift */; };
+		E201701627DA07E200C0A9F1 /* TurnOnCommand .swift in Sources */ = {isa = PBXBuildFile; fileRef = E201701527DA07E200C0A9F1 /* TurnOnCommand .swift */; };
+		E201701827DA082700C0A9F1 /* CommandPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201701727DA082700C0A9F1 /* CommandPattern.swift */; };
 		E24C6AED27D9DC30005432D9 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6ADF27D9DC30005432D9 /* Bubble.swift */; };
 		E24C6AEE27D9DC30005432D9 /* FruitPudding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6AE027D9DC30005432D9 /* FruitPudding.swift */; };
 		E24C6AEF27D9DC30005432D9 /* WhiteBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C6AE127D9DC30005432D9 /* WhiteBubble.swift */; };
@@ -58,6 +64,14 @@
 		E288E0E527D9D4B300F42E23 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E0E227D9D4B300F42E23 /* Subject.swift */; };
 		E288E0E627D9D4B300F42E23 /* IObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E0E327D9D4B300F42E23 /* IObserver.swift */; };
 		E288E0E727D9D4B300F42E23 /* StrategyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E288E0E427D9D4B300F42E23 /* StrategyPattern.swift */; };
+		E296C63727DADA96008316FD /* Ishape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296C63627DADA96008316FD /* Ishape.swift */; };
+		E296C63927DADABC008316FD /* LegacyRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296C63827DADABC008316FD /* LegacyRectangle.swift */; };
+		E296C63B27DADAF6008316FD /* LegacyLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296C63A27DADAF6008316FD /* LegacyLine.swift */; };
+		E296C63D27DADB15008316FD /* RectangleAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296C63C27DADB15008316FD /* RectangleAdapter.swift */; };
+		E296C63F27DADB32008316FD /* LineAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296C63E27DADB32008316FD /* LineAdapter.swift */; };
+		E296C64227DAE734008316FD /* EmailNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296C64127DAE734008316FD /* EmailNotifier.swift */; };
+		E296C64627DAEBBD008316FD /* FacebookNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296C64527DAEBBD008316FD /* FacebookNotifier.swift */; };
+		E296C64827DAECFC008316FD /* ObserverPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296C64727DAECFC008316FD /* ObserverPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +92,12 @@
 		E201700527D9F0CE00C0A9F1 /* CarBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBuilder.swift; sourceTree = "<group>"; };
 		E201700727D9F20400C0A9F1 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		E201700A27D9FB0200C0A9F1 /* ThanhSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanhSingleton.swift; sourceTree = "<group>"; };
+		E201700D27DA063800C0A9F1 /* ICommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICommand.swift; sourceTree = "<group>"; };
+		E201700F27DA067900C0A9F1 /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
+		E201701127DA06E500C0A9F1 /* TurnOffCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnOffCommand.swift; sourceTree = "<group>"; };
+		E201701327DA072B00C0A9F1 /* Fan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fan.swift; sourceTree = "<group>"; };
+		E201701527DA07E200C0A9F1 /* TurnOnCommand .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TurnOnCommand .swift"; sourceTree = "<group>"; };
+		E201701727DA082700C0A9F1 /* CommandPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPattern.swift; sourceTree = "<group>"; };
 		E24C6ADF27D9DC30005432D9 /* Bubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
 		E24C6AE027D9DC30005432D9 /* FruitPudding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitPudding.swift; sourceTree = "<group>"; };
 		E24C6AE127D9DC30005432D9 /* WhiteBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteBubble.swift; sourceTree = "<group>"; };
@@ -114,6 +134,14 @@
 		E288E0E227D9D4B300F42E23 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		E288E0E327D9D4B300F42E23 /* IObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IObserver.swift; sourceTree = "<group>"; };
 		E288E0E427D9D4B300F42E23 /* StrategyPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyPattern.swift; sourceTree = "<group>"; };
+		E296C63627DADA96008316FD /* Ishape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ishape.swift; sourceTree = "<group>"; };
+		E296C63827DADABC008316FD /* LegacyRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyRectangle.swift; sourceTree = "<group>"; };
+		E296C63A27DADAF6008316FD /* LegacyLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyLine.swift; sourceTree = "<group>"; };
+		E296C63C27DADB15008316FD /* RectangleAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleAdapter.swift; sourceTree = "<group>"; };
+		E296C63E27DADB32008316FD /* LineAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineAdapter.swift; sourceTree = "<group>"; };
+		E296C64127DAE734008316FD /* EmailNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailNotifier.swift; sourceTree = "<group>"; };
+		E296C64527DAEBBD008316FD /* FacebookNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookNotifier.swift; sourceTree = "<group>"; };
+		E296C64727DAECFC008316FD /* ObserverPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +199,19 @@
 			path = SingletonPattern;
 			sourceTree = "<group>";
 		};
+		E201700C27DA061D00C0A9F1 /* CommandPattern */ = {
+			isa = PBXGroup;
+			children = (
+				E201700D27DA063800C0A9F1 /* ICommand.swift */,
+				E201700F27DA067900C0A9F1 /* Remote.swift */,
+				E201701527DA07E200C0A9F1 /* TurnOnCommand .swift */,
+				E201701127DA06E500C0A9F1 /* TurnOffCommand.swift */,
+				E201701327DA072B00C0A9F1 /* Fan.swift */,
+				E201701727DA082700C0A9F1 /* CommandPattern.swift */,
+			);
+			path = CommandPattern;
+			sourceTree = "<group>";
+		};
 		E24C6ADD27D9DC30005432D9 /* StructuralPatterns */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,8 +248,8 @@
 		E24C6AE827D9DC30005432D9 /* FacadePattern */ = {
 			isa = PBXGroup;
 			children = (
-				E24C6AE927D9DC30005432D9 /* BankAccountFacade.swift */,
 				E24C6AEA27D9DC30005432D9 /* FacadePattern.swift */,
+				E24C6AE927D9DC30005432D9 /* BankAccountFacade.swift */,
 				E2016FE627D9E13200C0A9F1 /* CashManager.swift */,
 				E2016FE827D9E2BA00C0A9F1 /* SecurityCodeChecker.swift */,
 				E2016FEA27D9E36C00C0A9F1 /* AccountChecker.swift */,
@@ -220,6 +261,11 @@
 			isa = PBXGroup;
 			children = (
 				E24C6AEC27D9DC30005432D9 /* AdapterPattern.swift */,
+				E296C63C27DADB15008316FD /* RectangleAdapter.swift */,
+				E296C63E27DADB32008316FD /* LineAdapter.swift */,
+				E296C63627DADA96008316FD /* Ishape.swift */,
+				E296C63827DADABC008316FD /* LegacyRectangle.swift */,
+				E296C63A27DADAF6008316FD /* LegacyLine.swift */,
 			);
 			path = AdapterPattern;
 			sourceTree = "<group>";
@@ -315,6 +361,7 @@
 		E288E0DF27D9D4B300F42E23 /* BehavioralPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				E201700C27DA061D00C0A9F1 /* CommandPattern */,
 				E2016FEC27D9E68300C0A9F1 /* StrategyPattern */,
 				E288E0E027D9D4B300F42E23 /* Observer */,
 			);
@@ -324,6 +371,8 @@
 		E288E0E027D9D4B300F42E23 /* Observer */ = {
 			isa = PBXGroup;
 			children = (
+				E296C64727DAECFC008316FD /* ObserverPattern.swift */,
+				E296C64027DAE70B008316FD /* Notifiers */,
 				E288E0E127D9D4B300F42E23 /* base */,
 			);
 			path = Observer;
@@ -336,6 +385,15 @@
 				E288E0E327D9D4B300F42E23 /* IObserver.swift */,
 			);
 			path = base;
+			sourceTree = "<group>";
+		};
+		E296C64027DAE70B008316FD /* Notifiers */ = {
+			isa = PBXGroup;
+			children = (
+				E296C64527DAEBBD008316FD /* FacebookNotifier.swift */,
+				E296C64127DAE734008316FD /* EmailNotifier.swift */,
+			);
+			path = Notifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,22 +468,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				E24C6AF327D9DC30005432D9 /* IMilkTea.swift in Sources */,
+				E296C63D27DADB15008316FD /* RectangleAdapter.swift in Sources */,
 				E26092B627D9D907002074CA /* TwoLegsAnimalFactory.swift in Sources */,
 				E26092C027D9D907002074CA /* IAnimalFactory.swift in Sources */,
 				E24C6AF027D9DC30005432D9 /* BlackSugar.swift in Sources */,
 				E24C6AF127D9DC30005432D9 /* EggPudding.swift in Sources */,
+				E296C64827DAECFC008316FD /* ObserverPattern.swift in Sources */,
+				E296C64227DAE734008316FD /* EmailNotifier.swift in Sources */,
 				E2016FFB27D9ECFA00C0A9F1 /* BuilderPattern.swift in Sources */,
 				E288E0E527D9D4B300F42E23 /* Subject.swift in Sources */,
 				E2016FE727D9E13200C0A9F1 /* CashManager.swift in Sources */,
 				E2016FF227D9E71700C0A9F1 /* NoDiscountStrategy.swift in Sources */,
 				E201700427D9EFA600C0A9F1 /* Windscreen.swift in Sources */,
 				E2016FF427D9E73E00C0A9F1 /* HalfDiscountStrategy.swift in Sources */,
+				E201701027DA067900C0A9F1 /* Remote.swift in Sources */,
 				E26092B927D9D907002074CA /* Chicken.swift in Sources */,
 				E24C6AF427D9DC30005432D9 /* MilkTea.swift in Sources */,
+				E201700E27DA063800C0A9F1 /* ICommand.swift in Sources */,
 				E24C6AEE27D9DC30005432D9 /* FruitPudding.swift in Sources */,
 				E24C6AF727D9DC30005432D9 /* AdapterPattern.swift in Sources */,
+				E201701427DA072B00C0A9F1 /* Fan.swift in Sources */,
+				E296C63927DADABC008316FD /* LegacyRectangle.swift in Sources */,
 				E24C6AED27D9DC30005432D9 /* Bubble.swift in Sources */,
 				E2016FF627D9E75D00C0A9F1 /* IpromoteStrategy.swift in Sources */,
+				E201701627DA07E200C0A9F1 /* TurnOnCommand .swift in Sources */,
 				E2016FEE27D9E6A000C0A9F1 /* Ticket.swift in Sources */,
 				E288E0D027D9D49B00F42E23 /* ViewController.swift in Sources */,
 				E26092B827D9D907002074CA /* Dog.swift in Sources */,
@@ -442,18 +508,24 @@
 				E26092C227D9D907002074CA /* FactoryMethod.swift in Sources */,
 				E26092BF27D9D907002074CA /* RandomAnimalFactory.swift in Sources */,
 				E26092BE27D9D907002074CA /* TwoLegsAnimal.swift in Sources */,
+				E296C63B27DADAF6008316FD /* LegacyLine.swift in Sources */,
 				E24C6AF227D9DC30005432D9 /* MilkTeaDecorator.swift in Sources */,
 				E2016FEB27D9E36C00C0A9F1 /* AccountChecker.swift in Sources */,
 				E26092C127D9D907002074CA /* BasicAnimalFactory.swift in Sources */,
 				E24C6AEF27D9DC30005432D9 /* WhiteBubble.swift in Sources */,
 				E26092BD27D9D907002074CA /* FourLegsAnimal.swift in Sources */,
+				E296C64627DAEBBD008316FD /* FacebookNotifier.swift in Sources */,
+				E296C63F27DADB32008316FD /* LineAdapter.swift in Sources */,
 				E2016FE927D9E2BA00C0A9F1 /* SecurityCodeChecker.swift in Sources */,
+				E296C63727DADA96008316FD /* Ishape.swift in Sources */,
 				E26092BB27D9D907002074CA /* Duck.swift in Sources */,
 				E26092BC27D9D907002074CA /* Cat.swift in Sources */,
 				E2016FFD27D9EDCE00C0A9F1 /* ICarBuilder.swift in Sources */,
 				E2016FF027D9E6D900C0A9F1 /* QuarterDiscountStrategy.swift in Sources */,
+				E201701227DA06E500C0A9F1 /* TurnOffCommand.swift in Sources */,
 				E201700827D9F20400C0A9F1 /* Car.swift in Sources */,
 				E2016FF827D9E7A300C0A9F1 /* EightyDiscountStrategy.swift in Sources */,
+				E201701827DA082700C0A9F1 /* CommandPattern.swift in Sources */,
 				E26092B527D9D907002074CA /* FourLegsAnimalFactory.swift in Sources */,
 				E201700627D9F0CE00C0A9F1 /* CarBuilder.swift in Sources */,
 				E24C6AF527D9DC30005432D9 /* BankAccountFacade.swift in Sources */,

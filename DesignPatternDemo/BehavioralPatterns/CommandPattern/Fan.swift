@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+
+class Fan
+    {
+        func TurnOn()
+        {
+            print("Turn on");
+        }
+        func TurnOff()
+        {
+            print("Turn off");
+        }
+    }
+

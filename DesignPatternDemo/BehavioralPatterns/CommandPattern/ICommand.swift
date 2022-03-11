@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+
+protocol ICommand
+    {
+        func Execute();
+        func Undo();
+    }

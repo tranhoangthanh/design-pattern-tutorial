@@ -6,3 +6,21 @@
 //
 
 import Foundation
+
+class TurnOnCommand : ICommand {
+    
+    private var fan : Fan
+    
+    init(fan : Fan) {
+        self.fan = fan
+    }
+    
+    func Execute() {
+        fan.TurnOn()
+    }
+    
+    func Undo() {
+        fan.TurnOff()
+    }
+    
+   }
